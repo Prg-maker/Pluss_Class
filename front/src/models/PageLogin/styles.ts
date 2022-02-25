@@ -6,14 +6,18 @@ export const Container = styled.div`
   display:flex;
   align-items:center;
   overflow: hidden;
-  .person{
-    height: 100vh;
-    flex: .55;
-    animation-name: AnimationImgLeft;
-    animation-duration: .70s;
-    transition: 0.2s;
 
-  }
+
+  @media(min-width: 1000px ){
+    .person{
+      display:inline;
+      height: 100vh;
+      flex: .55;
+      animation-name: AnimationImgLeft;
+      animation-duration: .70s;
+      transition: 0.2s;
+
+      }
 
   .left{
     display: flex;
@@ -22,7 +26,7 @@ export const Container = styled.div`
     width: 100%;
     align-items:center;
     animation-name: AnimationForm;
-    animation-duration: .70s;
+    animation-duration: .7s;
     transition: 0.2s;
 
 
@@ -32,6 +36,29 @@ export const Container = styled.div`
 
 
   }
+
+  }
+
+
+  @media(max-width: 999px ){
+    display: flex;
+    justify-content:center;
+
+    .person{
+      display:none;
+    }
+
+    .left{
+      animation-name: AnimationFormMedia;
+      animation-duration: .7s;
+      transition: 0.2s;
+
+      display: flex;
+      flex-direction:column;
+      align-items:center;
+    }
+  }
+
 
   @keyframes AnimationImgLeft {
     from {
@@ -53,9 +80,20 @@ export const Container = styled.div`
     to {
       transform: translateX(0%);
       opacity: 1;
-
     }
+
+
   }
+
+  @keyframes AnimationFormMedia {
+    from {
+      transform: translateY(-50%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0%);
+      opacity: 1;
+    }
 
 `
 
@@ -63,8 +101,12 @@ export const Title = styled.h1`
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
-  padding-bottom: 67px;
+  margin-bottom: 67px;
 
+  @media(max-width: 999px ){
+    margin-top: 67px;
+
+  }
 `
 
 
