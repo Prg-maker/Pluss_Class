@@ -1,11 +1,13 @@
-import { Container, Title, Button , IconGoogle } from './styles'
-
-
+import { Container, Title, Button, IconGoogle, IconGithub } from './styles'
 
 import PersonPng from './assents/person.png'
 import PlussClassSvg from './assents/Pluss+Class_Logo.svg'
 
+
+
 export function PageLogin() {
+
+
   return (
     <Container>
       <img className="person" src={PersonPng} alt="estudar para um futuro" />
@@ -17,7 +19,12 @@ export function PageLogin() {
         <Title>Entrar com...</Title>
 
         <Button>
-          <IconGoogle/>
+          <IconGoogle />
+          Google
+        </Button>
+
+        <Button className="github">
+          <IconGithub />
           Google
         </Button>
 
