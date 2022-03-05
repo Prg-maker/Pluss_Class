@@ -25,12 +25,18 @@ export const GlobalStyles = createGlobalStyle`
 
   #root{
     --color-yellow: #FCA213;
-    --color-primary: 13213B;
+    --color-primary: #13213B;
     --color-white: #E5E5E5;
     --color-gray: #BEBEBE;
     --color-black: #000000;
     --color-text-white: #fff;
+    --color-background-white: #fff;
+  }
 
+
+  label{
+    visibility: hidden ;
+    position: absolute;
   }
 
 `
