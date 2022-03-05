@@ -7,13 +7,12 @@ import {
   InputClass, 
   Button, 
   ArrowRight,
-  WrapperSection,
-  SelecOption,
+  WrapperSelect,
+  SelectOption,
   ArrowDown
 
 } from './styles'
 
-import BackgroundPicture from './assets/backgroundPhoto.svg'
 
 export function FormUser(){
   return(
@@ -24,19 +23,22 @@ export function FormUser(){
         <Title>Preencha os dados</Title>
 
         <Form>
-          <p>Como você quer ser chamado</p>
+          <p>Como você quer ser chamado?</p>
 
 
           <label htmlFor="">nickname</label>
           <InputName  type="text" placeholder='Nickname'/>
 
-          <WrapperSection>
-              <SelecOption>
-                <option selected>Selecione uma das opções  <ArrowDown/></option>
-                <option value="professor">Professor</option>
-                <option value="aluno">Aluno</option>
-              </SelecOption>
-          </WrapperSection>
+
+            <div className='select'>
+            <ArrowDown/>
+
+            <SelectOption>
+              <option selected>Selecione uma das opções </option>
+              <option value="professor">Professor</option>
+              <option value="aluno">Aluno</option>
+            </SelectOption>
+            </div>
 
             <InputClass type="text" placeholder='Nome da sala'/>
 
