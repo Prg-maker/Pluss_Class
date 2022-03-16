@@ -12,8 +12,10 @@ export const GlobalStyles = createGlobalStyle`
     font-family: 'Poppins', sans-serif;
   }
 
-  html , bodt ,#root{
-    height:100%;
+  html , body ,#root{
+    height:100vh;
+
+    overflow-y: none;
 
   }
 

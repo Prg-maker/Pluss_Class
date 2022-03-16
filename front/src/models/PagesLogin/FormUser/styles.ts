@@ -26,12 +26,26 @@ export const WrapperContainer = styled.div`
   background: var(--color-background-white) ;
 
   width: 500px;
-  height: 85%;
+  height: 80%;
+
+
+
+
 
   display: flex;
   flex-direction: column ;
   align-items: center ;
   border-radius: 35px ;
+
+  @media(max-width: 758px){
+    width: 70%;
+    height: 60%;
+
+    *{
+      font-size: 16px;
+      
+    }
+  }
 
 `  
 export const Title = styled.h2`
@@ -41,7 +55,7 @@ export const Title = styled.h2`
   line-height: 36px;
 
   text-align: center;
-
+  
   padding-top: 48px;
   padding-bottom:35px; 
 `  
@@ -56,6 +70,7 @@ export const Form = styled.form`
     font-weight: normal;
     font-size: 18px;
     line-height: 27px;
+    margin-bottom: 20px;
 
   }
 
@@ -64,6 +79,7 @@ export const Form = styled.form`
     height: 45px;
     position: relative ;
     margin-bottom: 25px ;
+    margin-bottom: 55px;
   }
 
 
@@ -82,7 +98,7 @@ const styleInputs = css`
   border: 2px solid var(--color-gray);
   border-radius: 10px;
 
-  margin: 20px 0 40px 0 ;
+  margin: 20px 0 55px 0 ;
   &:focus{
     border: 2px solid #135FED;
   }
@@ -114,12 +130,16 @@ export const Button = styled.button`
   align-items: center ;
   justify-content:center ;
   position: relative ;
-  top: 20px ;
   left: 270px ;
   &:hover{
       background: #002c7e;
       padding-left: 5px;
   }
+
+
+
+
+  
 `
 
 export const ArrowRight = styled(BsArrowRight)`
@@ -143,7 +163,9 @@ export const SelectOption = styled.select`
   -webkit-appearance: none;
   -moz-appearance:    none;
   appearance:         none;
-  border: 2px solid #7A7A7A;
+
+  border: 2px solid var(--color-gray);
+
   background: var(--color-background-white);
   &:hover{
     border: 2px solid #135FED;
