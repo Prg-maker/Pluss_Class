@@ -24,13 +24,16 @@ export const Container = styled.div`
   }
 
   @media(max-width:780px){
+
+
     background: var(--color-background-white);
     width: 100%;
-    display: flex;
+    padding: 0;
+
 
     >div{
-
-      background-color: red;
+      width: 100%;
+      padding: 5px 20px;
       display: flex;
       justify-content: space-between;
       
@@ -38,7 +41,6 @@ export const Container = styled.div`
       p{
         font-size: 14px;
         text-overflow: ellipsis;
-       
       }
     }
   }

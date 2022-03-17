@@ -1,17 +1,56 @@
-import {Container , DashBoardMobal , Pluss} from './styles'
+import {Container  , Main} from './styles'
 
 import {Header} from '../components/Header'
+import { Card } from '../components/Card'
+
+import {DashBoardMobal}from '../components/DashBoardMobal'
 
 export function  DashBoard(){
   return(
     <Container>
-      <Header/>
+      <Header
+        avatar='https://github.com/Prg-Maker.png'
+        name='Daniel Fernandes Silva'
+      />
 
-      <DashBoardMobal>
-      <Pluss/>
+
+      <Main>
+        <h2>Suas Salas Daniel</h2>
+        
+
+        <div className='Cards'>
+
+        <Card
+          name='English'
+          description='Testes de inglês da escola (xxxx)'
+          turma='3° Ano A'        
+        />
+        <Card
+          name='English'
+          description='Testes de inglês da escola (xxxx)'
+          turma='3° Ano A'        
+        />
+         <Card
+          name='English'
+          description='Testes de inglês da escola (xxxx)'
+          turma='3° Ano A'        
+        />
+         <Card
+          name='English'
+          description='Testes de inglês da escola (xxxx)'
+          turma='3° Ano A'        
+        />
 
 
-      </DashBoardMobal>
+     
+        </div>
+
+       
+        
+
+      </Main>
+
+      <DashBoardMobal/>
 
     </Container>
   )

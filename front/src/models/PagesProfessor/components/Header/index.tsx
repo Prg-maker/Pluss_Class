@@ -5,23 +5,28 @@ import {
   Container
 } from './styles'
 
-
+interface Props {
+  name: string;
+  avatar: string;
+}
 
 import PlussClassSvg from '../../assets/Pluss+Class_Logo.svg'
+import { Link } from 'react-router-dom';
 
-export function Header(){
+export function Header({name, avatar}: Props){
   return(
     <Container>
-      
-      <Logo src={PlussClassSvg} alt="Pluss + Class" />
+      <Link to={'/'}>
+        <Logo src={PlussClassSvg} alt="Pluss + Class" />
+      </Link>
 
       <div>
         <Pluss/>
 
-        <Name>Daniel Fernades</Name>
+        <Name>{name}</Name>
 
 
-        <img src="https://github.com/Prg-Maker.png" alt="" />
+        <img src={avatar} alt={name} />
       </div>
    
     </Container>

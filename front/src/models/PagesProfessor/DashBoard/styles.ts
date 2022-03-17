@@ -1,37 +1,57 @@
 import styled from "styled-components";
-import {HiPlusSm} from 'react-icons/hi'
 
 export const Container = styled.div`
 
   width: 100%;
   height: 100%;
   background: var(--color-white);
+  
 
+  @media(max-width:780px){
+    height: auto;
 
- 
+  }
+  
 
 `
-export const DashBoardMobal = styled.div`
-  display: none;
+export const Main = styled.div`
+  margin-left: 31px;
+  margin-top: 31px;
+  
+  
+  h2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 54px;
+  }  
+
+  .Cards{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto;
+  }
 
 
   @media(max-width:780px){
     display: flex;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    background: var(--color-background-white);
-    padding: 10px 0 ;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin: 0;
 
+    h2{
+      font-size: 20px;
+    }
+
+
+    .Cards{
+      display: flex;
+      flex-direction:column ;
+    }
   }
-`
-export const Pluss = styled(HiPlusSm)`
-  width: 25px;
-  height: 25px;
-  border: 2px solid black;
-  border-radius: 7px;
-  cursor:pointer;
-  transition: opacity .2s;
 
-`
+
+  
+
+` 

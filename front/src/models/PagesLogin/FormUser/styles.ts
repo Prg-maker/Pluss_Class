@@ -150,7 +150,6 @@ export const ArrowRight = styled(BsArrowRight)`
 
 `
 
-export const WrapperSelect = styled.div``
 export const SelectOption = styled.select`
   width: 100% ;
   height:100% ;

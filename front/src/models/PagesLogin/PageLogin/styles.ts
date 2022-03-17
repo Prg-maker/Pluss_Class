@@ -95,6 +95,8 @@ export const Container = styled.div`
       opacity: 1;
     }
 
+  }
+
 `
 
 export const Title = styled.h1`
