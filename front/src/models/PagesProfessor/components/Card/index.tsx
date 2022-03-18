@@ -10,19 +10,16 @@ import {
   IconTreePoints,
 } from './styles'
 
-interface Props{
-  name: string;
-  description?: string;
-  turma: string;
-
-}
+import {PropsCard} from '../../utils/PropsCard'
 
 
 export function Card({
   name,
   description,
   turma
-}: Props){
+}: PropsCard){
+  console.log(name)
+
   return(
     <Container>
       <Header>

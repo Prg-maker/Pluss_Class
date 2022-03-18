@@ -6,6 +6,8 @@ import { Card } from '../components/Card'
 import {DashBoardMobal}from '../components/DashBoardMobal'
 
 export function  DashBoard(){
+  const name = "Daniel"
+
   return(
     <Container>
       <Header
@@ -15,7 +17,7 @@ export function  DashBoard(){
 
 
       <Main>
-        <h2>Suas Salas Daniel</h2>
+        <h2>Suas Salas {name}</h2>
         
 
         <div className='Cards'>

@@ -5,7 +5,7 @@ import {FormUser} from './PagesLogin/FormUser'
 
 
 import {DashBoard} from './PagesProfessor/DashBoard'
-import {ActivityDetails} from './PagesProfessor/ActivityDetails'
+import {ProferssorActivityDetails} from './PagesProfessor/ProferssorActivityDetails'
 
 export function RoutesWeb(){
 
@@ -17,7 +17,7 @@ export function RoutesWeb(){
           <Route path='/' element={<PageLogin/>}/>
           <Route path='/formuser' element={<FormUser/>}/>
           <Route path='/dashboard/admin/:name' element={<DashBoard/>}/>
-          <Route path='/dashboard/admin/:name/:id' element={<ActivityDetails/>}/>
+          <Route path='/dashboard/admin/:name/:id' element={<ProferssorActivityDetails/>}/>
 
 
 
