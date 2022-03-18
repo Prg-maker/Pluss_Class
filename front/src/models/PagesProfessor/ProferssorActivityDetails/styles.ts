@@ -16,6 +16,11 @@ export const WrapperContainer = styled.div`
 
   .left{
     margin-left: 97px;
+    margin-right: 209px;
+
+  }
+
+  .right{
   }
 
 

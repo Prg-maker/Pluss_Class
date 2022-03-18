@@ -6,5 +6,19 @@ export const Container = styled.div`
   background: white;
   border-radius: 10px;
   margin-top: 39px;
-    
+  overflow-y: auto;
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: white;        /* color of the tracking area */
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #C4C4C4;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid white;  /* creates padding around scroll thumb */
+  }
+
 `;
