@@ -8,6 +8,7 @@ import {
   Description,
   Turma,
   IconTreePoints,
+  Content
 } from './styles'
 
 import {PropsCard} from '../../utils/PropsCard'
@@ -33,6 +34,11 @@ export function Card({
           <IconTreePoints/>
         </Link>
       </Header>
+
+
+      <Content>
+      
+      </Content>
     </Container>
   )
 }

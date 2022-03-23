@@ -11,6 +11,7 @@ export function  DashBoard(){
   return(
     <Container>
       <Header
+        create='Criar sala'
         avatar='https://github.com/Prg-Maker.png'
         name='Daniel Fernandes Silva'
       />

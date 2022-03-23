@@ -21,6 +21,7 @@ export function  ProferssorActivityDetails(){
   return(
     <Container>
       <Header
+        create='criar nova tarefa'
         avatar='https://github.com/Prg-Maker.png'
         name='Daniel Fernandes Silva'
       />

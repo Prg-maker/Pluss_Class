@@ -21,6 +21,8 @@ export const Container = styled.div`
       border-radius: 50%;
       border: 1px solid var(--color-yellow);
     }
+
+
   }
 
   @media(max-width:780px){
@@ -45,6 +47,13 @@ export const Container = styled.div`
     }
   }
 
+  a{
+    text-decoration: none;
+    &:hover{
+      opacity: 0.8;
+    }
+  }
+
 `
 export const Logo = styled.img`
   width: 179px;
@@ -56,18 +65,16 @@ export const Logo = styled.img`
 `
 
 
-  export const Pluss = styled(HiPlusSm)`
-  width: 25px;
-  height: 25px;
+  export const Pluss = styled.p`
+  min-width: 116px;
+  padding : 0 20px; 
+  height: 30px;
   border: 2px solid black;
   border-radius: 7px;
   cursor:pointer;
   transition: opacity .2s;
   color: var(--color-black);
-
-  &:hover{
-    opacity: 0.8;
-  }
+  text-align: center;
 
 
   @media(max-width:780px){
@@ -88,4 +95,11 @@ export const Name = styled.p`
   color: var(--color-black);
   padding: 0px 19px 0 19px;
 
+`
+export const Avatar = styled.div`
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--color-yellow);    
+  background: #c4c4c4;
 `

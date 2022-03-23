@@ -103,3 +103,5 @@ export const IconTreePoints = styled(BsThreeDotsVertical)`
   color: var(--color-white);
   text-decoration: none;
 `
+
+export const  Content = styled.div``

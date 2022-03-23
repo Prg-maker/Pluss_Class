@@ -2,18 +2,20 @@ import {
   Logo,
   Pluss,
   Name,
-  Container
+  Container,
+  Avatar
 } from './styles'
 
 interface Props {
   name: string;
   avatar: string;
+  create?: string;
 }
 
 import PlussClassSvg from '../../assets/Pluss+Class_Logo.svg'
 import { Link } from 'react-router-dom';
 
-export function Header({name, avatar}: Props){
+export function Header({name, avatar , create  }: Props){
   return(
     <Container>
       <Link to={'/'}>
@@ -23,13 +25,13 @@ export function Header({name, avatar}: Props){
       <div>
         
         <Link to={'/admin/create'}>
-          <Pluss/>
+          {create && <Pluss>{create}</Pluss>}
         </Link>
 
         <Name>{name}</Name>
 
-
-        <img src={avatar} alt={name} />
+        
+        {avatar? <img src={avatar} alt={name} />  : <Avatar/>}
       </div>
    
     </Container>
