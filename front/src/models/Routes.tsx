@@ -6,6 +6,7 @@ import {FormUser} from './PagesLogin/FormUser'
 
 import {DashBoard} from './PagesProfessor/DashBoard'
 import {ProferssorActivityDetails} from './PagesProfessor/ProferssorActivityDetails'
+import {CreateClass} from './PagesProfessor/CreateActivy'
 
 export function RoutesWeb(){
 
@@ -17,7 +18,8 @@ export function RoutesWeb(){
           <Route path='/' element={<PageLogin/>}/>
           <Route path='/formuser' element={<FormUser/>}/>
           <Route path='/dashboard/admin/:name' element={<DashBoard/>}/>
-          <Route path='/dashboard/admin/:name/:id' element={<ProferssorActivityDetails/>}/>
+          <Route path='/dashboard/admin/:name/:materia/:turma/:id' element={<ProferssorActivityDetails/>}/>
+          <Route path='/admin/create' element={<CreateClass/>}/>
 
 
 

@@ -1,5 +1,9 @@
 import styled, { css, keyframes } from 'styled-components'
-import { BsGoogle, BsGithub } from 'react-icons/bs'
+
+import {
+  BsGoogle,
+  BsGithub
+} from '../Icons/icons'
 
 export const Container = styled.div`
   height: 100vh;

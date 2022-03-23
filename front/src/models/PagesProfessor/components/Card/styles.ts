@@ -8,7 +8,7 @@ import {BsThreeDotsVertical} from 'react-icons/bs'
 export const Container = styled.div`
   width: 351px;
   height: 236px;
-  background-color: #fff;
+  background-color: var(--color-background-white);
   border-radius: 20px;
   
 
@@ -100,6 +100,6 @@ export const IconTreePoints = styled(BsThreeDotsVertical)`
   height: 20px;
   cursor: pointer;
   margin:  6px 0 0 6px;
-  color: #E5E5E5;
+  color: var(--color-white);
   text-decoration: none;
 `

@@ -1,5 +1,9 @@
 import styled , {css}from "styled-components";
-import {BsArrowRight , BsArrowDown} from 'react-icons/bs'
+
+import {
+  BsArrowDown,
+  BsArrowRight
+} from '../Icons/icons'
 
 export const Container  = styled.div`
   height: 100vh ;
@@ -100,7 +104,7 @@ const styleInputs = css`
 
   margin: 20px 0 55px 0 ;
   &:focus{
-    border: 2px solid #135FED;
+    border: 2px solid var(--color-button);
   }
 `
 
@@ -118,7 +122,7 @@ export const Button = styled.button`
   width: 120px;
   height: 50px;
   background: var(--color-primary);
-  color: #fff;
+  color: var(--color-text-white);
 
   border-radius: 10px;
   transition: all .2s;
@@ -132,8 +136,8 @@ export const Button = styled.button`
   position: relative ;
   left: 270px ;
   &:hover{
-      background: #002c7e;
-      padding-left: 5px;
+    background:var(--color-hover-button);
+    padding-left: 5px;
   }
 
 
@@ -143,7 +147,7 @@ export const Button = styled.button`
 `
 
 export const ArrowRight = styled(BsArrowRight)`
-  color: #fff;
+  color: var(--color-text-white);
   width:20px ;
   height:20px ;
   margin-left: 20px ;
@@ -167,7 +171,7 @@ export const SelectOption = styled.select`
 
   background: var(--color-background-white);
   &:hover{
-    border: 2px solid #135FED;
+    border: 2px solid var(--color-button);
   }
 
 

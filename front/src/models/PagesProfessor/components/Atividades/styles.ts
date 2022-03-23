@@ -26,7 +26,7 @@ export const Imgteste = styled.img`
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  border: 1px solid #FCA213;
+  border: 1px solid var(--color-yellow);
 
   margin: 0 15px 0 13px;
 
@@ -48,7 +48,7 @@ export const Avatar = styled.div`
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  border: 1px solid #FCA213;
-  background: #C4C4C4;
+  border: 1px solid var(--color-yellow);
+  background: var(--color-background-avatar);
   margin: 0 15px 0 13px;
 `

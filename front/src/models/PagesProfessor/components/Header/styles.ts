@@ -63,6 +63,7 @@ export const Logo = styled.img`
   border-radius: 7px;
   cursor:pointer;
   transition: opacity .2s;
+  color: var(--color-black);
 
   &:hover{
     opacity: 0.8;
@@ -84,7 +85,7 @@ export const Name = styled.p`
   overflow: hidden;
   white-space: nowrap;
   text-align: center;
-  color: #000000;
+  color: var(--color-black);
   padding: 0px 19px 0 19px;
 
 `

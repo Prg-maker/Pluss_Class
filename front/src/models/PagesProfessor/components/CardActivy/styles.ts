@@ -5,7 +5,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 560px;
   height: 184px;
-  background-color: #000;
+  background-color: var(--color-black);
   border-radius: 10px;
 
   display: flex;

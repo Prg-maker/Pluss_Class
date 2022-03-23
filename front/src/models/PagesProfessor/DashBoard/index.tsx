@@ -23,17 +23,18 @@ export function  DashBoard(){
         <div className='Cards'>
 
         <Card
-          name='English'
+          name='Geografia
+          '
           description='Testes de inglês da escola (xxxx)'
           turma='3° Ano A'        
         />
         <Card
-          name='English'
+          name='matematica'
           description='Testes de inglês da escola (xxxx)'
           turma='3° Ano A'        
         />
          <Card
-          name='English'
+          name='Portugues'
           description='Testes de inglês da escola (xxxx)'
           turma='3° Ano A'        
         />

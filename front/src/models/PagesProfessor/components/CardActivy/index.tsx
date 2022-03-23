@@ -14,9 +14,9 @@ export function CardActivy({
 }:PropsCard){
   return(
     <Container>
-      <TitleClass>English</TitleClass>
-      <Description>Testes de inglês da escola (xxxx)</Description>
-      <Turma>3° Ano A</Turma>
+      <TitleClass>{name}</TitleClass>
+      <Description>{description}</Description>
+      <Turma>{turma}</Turma>
     </Container>
   )
 }

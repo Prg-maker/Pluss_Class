@@ -21,7 +21,10 @@ export function Header({name, avatar}: Props){
       </Link>
 
       <div>
-        <Pluss/>
+        
+        <Link to={'/admin/create'}>
+          <Pluss/>
+        </Link>
 
         <Name>{name}</Name>
 

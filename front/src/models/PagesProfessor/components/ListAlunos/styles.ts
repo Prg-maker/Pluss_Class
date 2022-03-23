@@ -16,7 +16,7 @@ export const Container = styled.div`
   }
 
   &::-webkit-scrollbar-thumb {
-    background-color: #C4C4C4;    /* color of the scroll thumb */
+    background-color: var(--color-background-avatar);    /* color of the scroll thumb */
     border-radius: 20px;       /* roundness of the scroll thumb */
     border: 3px solid white;  /* creates padding around scroll thumb */
   }

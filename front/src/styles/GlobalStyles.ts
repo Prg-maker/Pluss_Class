@@ -33,6 +33,9 @@ export const GlobalStyles = createGlobalStyle`
     --color-black: #000000;
     --color-text-white: #fff;
     --color-background-white: #fff;
+    --color-button: #135FED;
+    --color-hover-button:#002c7e;
+    --color-background-avatar:#C4C4C4
   }
 
 

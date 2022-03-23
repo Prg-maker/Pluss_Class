@@ -29,7 +29,7 @@ export function Card({
           <Turma>{turma}</Turma>
         </ContentWrapperHeader>
 
-        <Link to='/dashboard/admin/:daniel/:446'>
+        <Link to={`/dashboard/admin/daniel/${name}/${turma}/446`}>
           <IconTreePoints/>
         </Link>
       </Header>

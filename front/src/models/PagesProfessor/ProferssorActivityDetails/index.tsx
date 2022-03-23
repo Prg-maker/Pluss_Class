@@ -8,9 +8,16 @@ import {Header} from '../components/Header'
 import {CardActivy} from '../components/CardActivy'
 import {Atividades} from '../components/Atividades'
 import { ListAlunos } from '../components/ListAlunos'
+import { useParams } from 'react-router-dom'
 
 
 export function  ProferssorActivityDetails(){
+
+  const params = useParams()
+
+  const materia = params.materia as string
+  const turma = params.turma as string
+
   return(
     <Container>
       <Header
@@ -23,25 +30,28 @@ export function  ProferssorActivityDetails(){
         <div className="left">
           
           <CardActivy
-            name='dasdsa'
-            turma='dsadsa'
+            name={materia}
+            turma={turma}
+            description='Testes de inglês da escola (xxxx)'
           />
           
           <Atividades
-            name='Teste de Inglês  #01'
+            name={materia}
           />
 
           <Atividades
             imgTeste='https://github.com/Prg-Maker.png'
-            name='Teste de Inglês  #02'
+            name={materia}
+
           />
           <Atividades
             imgTeste='https://github.com/Prg-Maker.png'
-            name='Teste de Inglês  #03'
+            name={materia}
+
           />
           <Atividades
             imgTeste='https://github.com/Prg-Maker.png'
-            name='Teste de Inglês  #04'
+            name={materia}
           />
 
           
