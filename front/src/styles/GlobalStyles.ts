@@ -14,7 +14,6 @@ export const GlobalStyles = createGlobalStyle`
 
   html , body ,#root{
     height:100vh;
-
     overflow-y: none;
 
   }

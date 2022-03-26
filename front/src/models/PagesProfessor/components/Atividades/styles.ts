@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
-import {MdKeyboardArrowDown} from 'react-icons/md'
+import {
+  MdKeyboardArrowDown
+} from '../../icons'
 
 export const Container = styled.div`
   width: 560px;

@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
-import {HiPlusSm} from 'react-icons/hi'
-
+import {
+  HiPlusSm
+} from '../../icons'
 
 
 export const Container = styled.div`

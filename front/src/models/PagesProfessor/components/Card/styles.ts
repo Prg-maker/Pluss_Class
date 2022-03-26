@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-import {BsThreeDotsVertical} from 'react-icons/bs'
-
-
+import {
+  BsThreeDotsVertical
+} from '../../icons'
 
 
 export const Container = styled.div`

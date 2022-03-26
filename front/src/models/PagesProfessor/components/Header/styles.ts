@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import {HiPlusSm} from 'react-icons/hi'
 
 
 export const Container = styled.div`

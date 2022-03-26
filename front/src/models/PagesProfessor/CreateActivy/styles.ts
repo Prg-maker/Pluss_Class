@@ -1,5 +1,7 @@
 import styled from "styled-components"
-import {BsArrowRight} from "react-icons/bs"
+import {
+  BsArrowRight
+} from '../icons'
 
 
 export const Container = styled.div`
