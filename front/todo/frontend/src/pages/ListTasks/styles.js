@@ -1,7 +1,8 @@
 import styled from 'styled-components';
-
+import {AiOutlineCheckCircle} from 'react-icons/ai'
+import {TiDeleteOutline} from 'react-icons/ti' 
 export const Container = styled.div`
-  width: 600px;
+width: 600px;
   min-height: 450px;
   background: #fff;
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.25);
@@ -22,6 +23,12 @@ export const Title = styled.h1`
   color: #112D4E;
   margin-top: 20px;
   margin-bottom: 10px;
+  position: sticky;
+  top: 0  ;
+  width: 100%;
+  background: white;
+  text-align: center;
+  z-index: 2;
 ` 
 
 export const  Button = styled.button`
@@ -51,3 +58,42 @@ export const  ContentTask = styled.div`
 `
 
 
+export const CheckIcon = styled(AiOutlineCheckCircle)`
+  position: relative;
+  width: 25px ;
+  height: 25px;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  margin-left: 20px;
+  color: green;
+
+  display: ${props => props.isCheck ? "none" : ""} ;
+
+`
+
+export const ContainerTask = styled.div`
+  background-color: #4F9FFF;
+  width: 490px;
+  min-height: 55px;
+  border-radius: 5px;   
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  background-color: ${props => props.isCheck ? "#DBE2EF" : "#4F9FFF"} ;
+`
+
+
+export const Delete = styled(TiDeleteOutline)`
+  color: #FF0000;
+  position: relative;
+  width: 25px ;
+  height: 25px;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  margin-left: 20px;
+`

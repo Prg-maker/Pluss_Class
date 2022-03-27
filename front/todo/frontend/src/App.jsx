@@ -6,6 +6,7 @@ import {
   Route
 } from 'react-router-dom'
 import { ListTasks } from "./pages/ListTasks"
+import { CreateTask } from "./pages/CreateTask"
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Routes>
 
         <Route path="/" element={<ListTasks/>}/>
+        <Route path="/create" element={<CreateTask/>}/>
 
       </Routes>
     

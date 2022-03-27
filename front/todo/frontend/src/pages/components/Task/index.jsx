@@ -1,17 +1,19 @@
+import axios from 'axios'
+import { useEffect, useState } from 'react'
 import {
   Container,
-  CheckIcon,
   TaskTitle,
 
 } from './styles'
 
 export function Task(props){
 
+  
+
   return(
 
-    <Container>
-      <CheckIcon/>
-      <TaskTitle>{props.title}</TaskTitle>
+    <Container   >
+      <TaskTitle >{props.title}</TaskTitle>
     </Container>
    
   )
