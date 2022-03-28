@@ -3,9 +3,22 @@ import { Container, Title, Button, IconGoogle, IconGithub } from './styles'
 import PersonPng from './assents/person.png'
 import PlussClassSvg from './assents/Pluss+Class_Logo.svg'
 
+import {GoogleAuthProvider , getAuth} from 'firebase/auth'
+
 
 
 export function PageLogin() {
+
+
+  const provider = new GoogleAuthProvider()
+  const auth = getAuth()
+
+  async function handleSingIn(){
+
+    
+
+
+  }
 
 
   return (
@@ -18,14 +31,14 @@ export function PageLogin() {
 
         <Title>Entrar com...</Title>
 
-        <Button>
+        <Button onClick={handleSingIn}>
           <IconGoogle />
           Google
         </Button>
 
         <Button className="github">
           <IconGithub />
-          Google
+          Github
         </Button>
 
 
