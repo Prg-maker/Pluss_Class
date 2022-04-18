@@ -7,7 +7,6 @@ import {DashBoardMobal}from '../components/DashBoardMobal'
 import {Header} from '../components/Header'
 import {CardActivy} from '../components/CardActivy'
 import {Atividades} from '../components/Atividades'
-import { ListAlunos } from '../components/ListAlunos'
 import { useParams } from 'react-router-dom'
 
 
@@ -60,12 +59,7 @@ export function  ProferssorActivityDetails(){
         </div>
 
 
-        <div  className="rigth">
-          
-          <ListAlunos/>
-
-        </div>
-        
+     
       </WrapperContainer>
       <DashBoardMobal/>
     </Container>

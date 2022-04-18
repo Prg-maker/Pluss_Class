@@ -1,7 +1,7 @@
 import {BrowserRouter , Routes , Route} from 'react-router-dom'
 
-import {PageLogin} from './PagesLogin/PageLogin'
-import {FormUser} from './PagesLogin/FormUser'
+import {PageLogin} from '../pages/PageLogin'
+import {FormUser} from '../pages/FormUser'
 
 
 import {DashBoard} from './PagesProfessor/DashBoard'

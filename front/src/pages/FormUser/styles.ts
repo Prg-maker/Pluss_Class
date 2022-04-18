@@ -3,7 +3,7 @@ import styled , {css}from "styled-components";
 import {
   BsArrowDown,
   BsArrowRight
-} from '../Icons/icons'
+} from '../../icons/IconsLogin/icons'
 
 export const Container  = styled.div`
   height: 100vh ;

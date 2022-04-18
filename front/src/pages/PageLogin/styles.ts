@@ -3,7 +3,7 @@ import styled, { css, keyframes } from 'styled-components'
 import {
   BsGoogle,
   BsGithub
-} from '../Icons/icons'
+} from '../../icons/IconsLogin/icons'
 
 export const Container = styled.div`
   height: 100vh;

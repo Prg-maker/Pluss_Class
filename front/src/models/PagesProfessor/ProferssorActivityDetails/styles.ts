@@ -11,17 +11,7 @@ export const Container = styled.div`
 `
 
 export const WrapperContainer = styled.div`
+  width: 100%;
   display: flex;
-
-
-  .left{
-    margin-left: 97px;
-    margin-right: 209px;
-
-  }
-
-  .right{
-  }
-
-
+  justify-content: center;
 `

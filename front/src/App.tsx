@@ -1,7 +1,7 @@
 import { GlobalStyles } from './styles/GlobalStyles'
 
 import {RoutesWeb} from './models/Routes'
-import {PageLogin} from './models/PagesLogin/PageLogin'
+import {PageLogin} from './pages/PageLogin'
 
 function App() {
 
