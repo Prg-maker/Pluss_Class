@@ -1,9 +1,9 @@
 import {Container  , Main} from './styles'
 
-import {Header} from '../components/Header'
-import { Card } from '../components/Card'
+import {Header} from '../../components/Header'
+import { Card } from '../../components/Card'
 
-import {DashBoardMobal}from '../components/DashBoardMobal'
+import {DashBoardMobal}from '../../components/DashBoardMobal'
 
 export function  DashBoard(){
   const name = "Daniel"

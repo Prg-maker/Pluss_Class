@@ -1,13 +1,13 @@
 import {BrowserRouter , Routes , Route} from 'react-router-dom'
 
-import {PageLogin} from '../pages/PageLogin'
-import {FormUser} from '../pages/FormUser'
+import {PageLogin} from './pages/PageLogin'
+import {FormUser} from './pages/FormUser'
 
 
-import {DashBoard} from './PagesProfessor/DashBoard'
-import {ProferssorActivityDetails} from './PagesProfessor/ProferssorActivityDetails'
-import {CreateClass} from './PagesProfessor/CreateActivy'
-import {CreateNewActivy} from './PagesProfessor/CreateNewActivy'
+import {DashBoard} from './pages/DashBoard'
+import {ProferssorActivityDetails} from './pages/ProferssorActivityDetails'
+import {CreateClass} from './pages/CreateClass'
+import {CreateNewActivy} from './pages/CreateNewActivy'
 
 export function RoutesWeb(){
 

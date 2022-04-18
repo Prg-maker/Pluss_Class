@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import {
   MdKeyboardArrowDown
-} from '../../icons'
+} from '../../icons/iconsProfessor'
 
 export const Container = styled.div`
   width: 560px;

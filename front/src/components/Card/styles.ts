@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 import {
   BsThreeDotsVertical
-} from '../../icons'
+} from '../../icons/iconsProfessor'
 
 
 export const Container = styled.div`

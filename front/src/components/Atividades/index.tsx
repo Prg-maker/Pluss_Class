@@ -1,4 +1,4 @@
-import { PropsCard } from '../../utils/PropsCard'
+import { PropsCard } from '../../Props/PagesProfessor/utils/PropsCard'
 import {
   Container,
   Imgteste,

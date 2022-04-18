@@ -1,6 +1,6 @@
 import { GlobalStyles } from './styles/GlobalStyles'
 
-import {RoutesWeb} from './models/Routes'
+import {RoutesWeb} from './Routes'
 import {PageLogin} from './pages/PageLogin'
 
 function App() {

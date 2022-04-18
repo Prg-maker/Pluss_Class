@@ -11,7 +11,7 @@ import {
   Content
 } from './styles'
 
-import {PropsCard} from '../../utils/PropsCard'
+import {PropsCard} from '../../Props/PagesProfessor/utils/PropsCard'
 
 
 export function Card({

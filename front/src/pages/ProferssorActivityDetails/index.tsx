@@ -2,11 +2,11 @@ import {
   Container,
   WrapperContainer
 } from './styles'
-import {DashBoardMobal}from '../components/DashBoardMobal'
+import {DashBoardMobal}from '../../components/DashBoardMobal'
 
-import {Header} from '../components/Header'
-import {CardActivy} from '../components/CardActivy'
-import {Atividades} from '../components/Atividades'
+import {Header} from '../../components/Header'
+import {CardActivy} from '../../components/CardActivy'
+import {Atividades} from '../../components/Atividades'
 import { useParams } from 'react-router-dom'
 
 

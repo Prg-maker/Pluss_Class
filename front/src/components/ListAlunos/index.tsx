@@ -2,7 +2,7 @@ import {
   Container
 } from './styles'
 
-import {User} from './components/User'
+import {User} from '../User'
 
 export function ListAlunos(){
   return(

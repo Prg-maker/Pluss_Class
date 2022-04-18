@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import {
   BsArrowRight
-} from '../icons'
+} from '../../icons/iconsProfessor'
 
 
 export const Container = styled.div`
